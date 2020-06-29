@@ -1,0 +1,28 @@
+{
+  "name": "jstable",
+  "version": "0.1.0",
+  "description": "JS Table structure",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennof/jstable.git"
+  },
+  "author": "Benjamin Benno Falkner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bennof/jstable/issues"
+  },
+  "homepage": "https://github.com/bennof/jstable#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
